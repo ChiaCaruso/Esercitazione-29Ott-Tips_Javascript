@@ -25,9 +25,14 @@ a{
     color: #033438;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1{
     font-size: 40px;
     line-height: 70px;
+}
+
+h3{
+    font-size: 30px;
+    line-height: 40px;
 }
 
 .btn{
@@ -46,6 +51,15 @@ h1, h2, h3, h4, h5, h6{
     background: #8A0002;
     color: #fff;
     border: 2px #8A0002 solid;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px; 
+    background: #8A0002;
+    color: #fff;
+    align-items: center;
 }
 
 hr{
@@ -89,4 +103,20 @@ hr{
     list-style: none;
     font-style: italic;
     text-transform: capitalize;
+}
+
+footer{
+    display: flex;
+    background: #8A0002;
+    color: #fff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 150px;
+    font-size: 16px;
+}
+
+footer img{
+    margin-right: 15px;
 }
