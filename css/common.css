@@ -48,6 +48,10 @@ h1, h2, h3, h4, h5, h6{
     border: 2px #8A0002 solid;
 }
 
+hr{
+    border: 4px double #8A0002;
+}
+
 .main{
     display: flex;
     align-items: center;
@@ -65,4 +69,24 @@ h1, h2, h3, h4, h5, h6{
     text-transform: uppercase;
     font-size: 26px;
     text-align: center;
+}
+
+.cont-todo-list{
+    width: 400px;;
+    display: block;
+    margin: 30px auto;
+}
+
+.todo-input{
+    display: flex;
+    flex-direction: column;
+}
+.todo-input input{
+    margin: 20px 0;
+}
+
+.todo-item{
+    list-style: none;
+    font-style: italic;
+    text-transform: capitalize;
 }
